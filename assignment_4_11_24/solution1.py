@@ -1,4 +1,4 @@
-5def should_buy_coupon(N, X, Y, prices):
+def should_buy_coupon(N, X, Y, prices):
     total_without_coupon = sum(prices)
     total_with_coupon = sum(max(price - Y, 0) for price in prices) + X
     return "COUPON" if total_with_coupon < total_without_coupon else "NO COUPON"
