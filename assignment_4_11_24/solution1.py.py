@@ -58,5 +58,5 @@ for i in range(t):
     result = take_discount_or_not(N, X, Y, prices)
     
     # Print the result clearly for the current test case
-    print("Result:", result)  # Print the result clearly
+    print("Result:", result)  
 
