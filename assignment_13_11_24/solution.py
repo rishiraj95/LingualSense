@@ -1,6 +1,5 @@
 def can_reduce_to_one_element(N, K, A):
-    
-    # Sort the array to check the two smallest elements
+    # Sort the array
     A.sort()
     
     # Case when there's only one element
@@ -22,7 +21,8 @@ for _ in range(T):
     N, K = map(int, input().split())  # Read N and K
     A = list(map(int, input().split()))  # Read the array
     
-    # Process to check for the function is True or Flase and store the result in the list
+    # Process for checking whether Is it possible to obtain an array consisting of only one element
+    # store the result in the list if possible 'YES' else 'NO'
     if can_reduce_to_one_element(N, K, A):
         result.append("YES")
     else:
