@@ -39,7 +39,7 @@ print("\n".join(results))
 2 2 2
 4 7
 1 4 3 5
-
+# output
 YES
 YES
 YES
