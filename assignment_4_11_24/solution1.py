@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Write your program here
 # Taking user's input
 N = int(input("Enter number of items in the shop: "))
@@ -26,3 +27,6 @@ if total_cost_with_coupon < total_cost_without_coupon:
     print("COUPON")
 else:
     print("NO COUPON")
+=======
+
+>>>>>>> fcebccd3f0a3aa3fe12928b0376ad16eb4dfcf42
