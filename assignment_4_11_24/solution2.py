@@ -8,7 +8,6 @@ A = list(map(int, input().split()))
 M = min(A)
 
 # Count how many elements are greater than the minimum value
-# operations = sum(1 for x in A if x > M)
 operations = 0
 for i in A:
     if i > M:
