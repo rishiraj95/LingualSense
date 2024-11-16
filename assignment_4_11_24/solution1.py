@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+# <<<<<<< HEAD
+# <<<<<<< HEAD
 ## Write your program here
 # Taking user's input
 N = int(input("Enter number of items in the shop: "))
@@ -28,10 +28,10 @@ if total_cost_with_coupon < total_cost_without_coupon:
     print("COUPON")
 else:
     print("NO COUPON")
-=======
+# =======
 
->>>>>>> fcebccd3f0a3aa3fe12928b0376ad16eb4dfcf42
-=======
+# >>>>>>> fcebccd3f0a3aa3fe12928b0376ad16eb4dfcf42
+# =======
 def should_buy_coupon(N, X, Y, prices):
     """
     Determines whether Chef should buy the discount coupon.
@@ -64,4 +64,4 @@ for _ in range(T):
     result.append(should_buy_coupon(N, X, Y, prices))
 
 print("\n".join(result))
->>>>>>> 4ed14ad3d1df1bdfe806c5cdf449d5129b65bedb
+# >>>>>>> 4ed14ad3d1df1bdfe806c5cdf449d5129b65bedb

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
 # Read the size of the array
 N = int(input())
 
@@ -16,7 +16,7 @@ for i in A:
 
 # Output the number of operations needed
 print(operations)
-=======
+# =======
 def min_to_max_operations(arr):
     """
     Calculates the minimum number of operations to make the minimum value the maximum.
@@ -51,4 +51,4 @@ for _ in range(T):
     
 for result in results:
     print(result)
->>>>>>> 4ed14ad3d1df1bdfe806c5cdf449d5129b65bedb
+# >>>>>>> 4ed14ad3d1df1bdfe806c5cdf449d5129b65bedb
